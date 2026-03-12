@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 14px;
+  padding: 1rem;
+}
+
+/* container */
+.social-links-container {
+  width: 100%;
+  max-width: 360px;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+/* top section */
+.social-links-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-links-top img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.social-links-top h1 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.social-links-top .location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.social-links-top .role {
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+}
+
+/* bottom links */
+.social-links-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.link {
+  background-color: hsl(0, 0%, 20%);
+  padding: 0.9rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+.link:hover a {
+  color: black;
+}
+
+.social-links-bottom a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  display: block;
+}
+
+/* small screens */
+@media (max-width: 480px) {
+  .social-links-container {
+    padding: 1.5rem;
+  }
+}

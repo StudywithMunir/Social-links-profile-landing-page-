@@ -55,8 +55,8 @@ Add a screenshot of your finished project here.
 
 ## Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/your-solution
-- Live Site URL: https://your-live-site-url.com
+- Solution URL: https://github.com/StudywithMunir/Social-links-profile-landing-page-.git
+- Live Site URL: https://studywithmunir.github.io/Social-links-profile-landing-page-/
 
 ---
 
